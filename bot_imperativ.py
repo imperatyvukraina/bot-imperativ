@@ -18,7 +18,8 @@ from datetime import datetime
 
 # ─── НАЛАШТУВАННЯ ────────────────────────────────────────────────────────────
 
-BOT_TOKEN = "8669059917:AAHQvIUwP_ryM-WpwxfveYszfqxZMamF9ww"
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 GROUP_CHAT_ID = -5183766443         # Твоя Telegram-група
 
 VACANCIES = [
