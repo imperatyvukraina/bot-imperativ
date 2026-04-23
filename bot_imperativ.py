@@ -7,7 +7,7 @@
 Запуск:
   python bot_imperativ.py
 """
-
+ 
 import logging
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from telegram.ext import (
