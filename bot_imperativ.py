@@ -19,7 +19,7 @@ from datetime import datetime
 # ─── НАЛАШТУВАННЯ ────────────────────────────────────────────────────────────
 
 BOT_TOKEN = "8669059917:AAHQvIUwP_ryM-WpwxfveYszfqxZMamF9ww"
-GROUP_CHAT_ID = -5183766443         # Твоя Telegram-група
+GROUP_CHAT_ID = -3949142129         # Твоя Telegram-група
 
 VACANCIES = [
     "Оператор виробничої лінії",
