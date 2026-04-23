@@ -7,7 +7,7 @@
 Запуск:
   python bot_imperativ.py
 """
- 
+
 import logging
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemove
 from telegram.ext import (
@@ -18,8 +18,7 @@ from datetime import datetime
 
 # ─── НАЛАШТУВАННЯ ────────────────────────────────────────────────────────────
 
-import os
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
+BOT_TOKEN = "8669059917:AAHQvIUwP_ryM-WpwxfveYszfqxZMamF9ww"
 GROUP_CHAT_ID = -5183766443         # Твоя Telegram-група
 
 VACANCIES = [
